@@ -54,12 +54,18 @@ export const Card = styled.div`
     width: 33.33%;
     padding: 15px;
 
+    transition: transform 0.2s ease-in-out;
+
     @media (max-width: 767px) {
         width: 50%;
     }
 
     @media (max-width: 500px) {
         width: 100%;
+    }
+
+    &:hover {
+        transform: translateY(-10px);
     }
 `;
 
@@ -70,6 +76,25 @@ export const Box = styled.div`
 
    padding: 20px;
    border-radius: 0.3rem;
+
+   position: relative;
+
+   &:before {
+       content: '';
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 0;
+       height: 0.2rem;
+       background-color: #f0f0f5;
+       z-index: 1;
+
+       transition: width .5s ease;
+   }
+
+   &:hover:before {
+       width: 100%;
+   }
 `;
 
 export const Tech = styled.h3`
