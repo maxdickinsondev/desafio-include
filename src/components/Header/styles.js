@@ -97,16 +97,16 @@ export const Burger = styled.div`
         transition: all 0.3s linear;
 
         &:nth-child(1) {
-            transform: ${props => props.isOpen === true ? 'rotate(45deg)' : 'rotate(0)' };
+            transform: ${props => props.isOpen === true ? 'rotate(0)' : 'rotate(45deg)' };
         }
 
         &:nth-child(2) {
-            transform: ${props => props.isOpen === true ? 'translateX(100%)' : 'translateX(0)'};
-            opacity: ${props => props.isOpen === true ? '0' : '1'};
+            transform: ${props => props.isOpen === true ? 'translateX(0)' : 'translateX(100%)'};
+            opacity: ${props => props.isOpen === true ? '1' : '0'};
         }
 
         &:nth-child(3) {
-            transform: ${props => props.isOpen === true ? 'rotate(-45deg)' : 'rotate(0)' };
+            transform: ${props => props.isOpen === true ? 'rotate(0)' : 'rotate(-45deg)' };
         }
     }
 
