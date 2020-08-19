@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import Welcome from '../../components/Welcome';
 import About from '../../components/About';
 import Skills from '../../components/Skills';
+import Projects from '../../components/Projects';
 
 import { Container } from './styles';
 
@@ -14,6 +15,7 @@ export default function Home() {
             <Welcome />
             <About />
             <Skills />
+            <Projects />
         </Container>
     );
 }
