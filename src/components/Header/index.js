@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { AreaSection, Container, AreaName, FirstName, SecondName,
-    NavBar, Menu
+    NavBar, Menu, Burger
 } from './styles';
 
 export default function Header() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    function handleOpenMenu() {
+        setIsOpen(!isOpen);
+        console.log(isOpen);
+    }
+    
     return (
         <AreaSection>
             <Container>
@@ -16,7 +23,16 @@ export default function Header() {
                 </AreaName>
 
                 <NavBar>
-                    <Menu>
+                    <a onClick={handleOpenMenu}>
+                        <Burger isOpen={isOpen}>
+                            <div />
+                            <div />
+                            <div />
+                        </Burger>
+                    </a>
+                    
+
+                    <Menu isOpen={isOpen}>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#skills">Skills</a></li>

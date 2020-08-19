@@ -40,7 +40,9 @@ export const SecondName = styled.h3`
     margin-left: 5px;
 `;
 
-export const NavBar = styled.div``;
+export const NavBar = styled.div`
+    
+`;
 
 export const Menu = styled.ul`
     display: flex;
@@ -51,11 +53,49 @@ export const Menu = styled.ul`
 
     z-index: 1;
     position: relative;
-    
 
-    a {
-        color: #f0f0f5;
-        text-decoration: none;
-        margin: 0px 15px;
-    }   
+    li {
+        margin-top: 10px;
+       
+        a {
+            color: #f0f0f5;
+            text-decoration: none;
+            margin: 0px 15px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        flex-direction: column;
+        background: #222222;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 180px;
+        padding-top: 5.5rem;
+        display: ${props => props.isOpen === true ? 'none' : 'flex'};
+    }
+`;
+
+export const Burger = styled.div`
+    position: absolute;
+    width: 2rem;
+    height: 1.5rem;
+    top: 25px;
+    right: 40px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+
+    div {
+        width: 2rem;
+        height: 0.25rem;
+        background: #ffffff;
+    }
+
+    @media (max-width: 991px) {
+        display: flex;
+    }
+
 `;
