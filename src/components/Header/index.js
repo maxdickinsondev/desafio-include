@@ -9,7 +9,6 @@ export default function Header() {
 
     function handleOpenMenu() {
         setIsOpen(!isOpen);
-        console.log(isOpen);
     }
     
     return (

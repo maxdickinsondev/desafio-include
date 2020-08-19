@@ -73,6 +73,8 @@ export const Menu = styled.ul`
         height: 100vh;
         width: 180px;
         padding-top: 5.5rem;
+        transform: ${props => props.isOpen === true ? 'translateX(100%)' : 'translateX(0)'};
+        transition: transform 0.3s ease-in-out;
         display: ${props => props.isOpen === true ? 'none' : 'flex'};
     }
 `;
@@ -92,10 +94,23 @@ export const Burger = styled.div`
         width: 2rem;
         height: 0.25rem;
         background: #ffffff;
+        transition: all 0.3s linear;
+
+        &:nth-child(1) {
+            transform: ${props => props.isOpen === true ? 'rotate(45deg)' : 'rotate(0)' };
+        }
+
+        &:nth-child(2) {
+            transform: ${props => props.isOpen === true ? 'translateX(100%)' : 'translateX(0)'};
+            opacity: ${props => props.isOpen === true ? '0' : '1'};
+        }
+
+        &:nth-child(3) {
+            transform: ${props => props.isOpen === true ? 'rotate(-45deg)' : 'rotate(0)' };
+        }
     }
 
     @media (max-width: 991px) {
         display: flex;
     }
-
 `;
