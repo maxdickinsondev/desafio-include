@@ -22,7 +22,7 @@ export default function Header() {
                 </AreaName>
 
                 <NavBar>
-                    <a onClick={handleOpenMenu}>
+                    <a href="#" onClick={handleOpenMenu}>
                         <Burger isOpen={isOpen}>
                             <div />
                             <div />

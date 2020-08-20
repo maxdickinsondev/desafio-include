@@ -37,17 +37,17 @@ export default function Footer() {
 
                 <Social>
                     <ul>
-                        <li><a href="https://www.facebook.com/max.sousa.501" target="_blank"><FaFacebook color="#f5f5f5" size={25} /></a></li>
-                        <li><a href="https://www.linkedin.com/in/maxdickinson/" target="_blank"><FaLinkedin color="#f5f5f5" size={25} /></a></li>
-                        <li><a href="https://www.instagram.com/max_dickinson_/" target="_blank"><FaInstagram color="#f5f5f5" size={25} /></a></li>
-                        <li><a href="https://github.com/maxdickinsondev" target="_blank"><FaGithub color="#f5f5f5" size={25} /></a></li>
-                        <li><a href="https://www.youtube.com/channel/UCGxj9W2avI5m48Zs-fDNI8Q/" target="_blank"><FaYoutube color="#f5f5f5" size={25} /></a></li>
+                        <li><a href="https://www.facebook.com/max.sousa.501" target="_blank" rel="noopener noreferrer"><FaFacebook color="#f5f5f5" size={25} /></a></li>
+                        <li><a href="https://www.linkedin.com/in/maxdickinson/" target="_blank" rel="noopener noreferrer"><FaLinkedin color="#f5f5f5" size={25} /></a></li>
+                        <li><a href="https://www.instagram.com/max_dickinson_/" target="_blank" rel="noopener noreferrer"><FaInstagram color="#f5f5f5" size={25} /></a></li>
+                        <li><a href="https://github.com/maxdickinsondev" target="_blank" rel="noopener noreferrer"><FaGithub color="#f5f5f5" size={25} /></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCGxj9W2avI5m48Zs-fDNI8Q/" target="_blank" rel="noopener noreferrer"><FaYoutube color="#f5f5f5" size={25} /></a></li>
                     </ul>
                 </Social>
 
                 <Thanks>
                     &copy; made with <FaHeart color="#E03041"/> by 
-                    <a href="https://github.com/maxdickinsondev" target="_blank"> MaxDickinson </a>
+                    <a href="https://github.com/maxdickinsondev" target="_blank" rel="noopener noreferrer"> MaxDickinson </a>
                 </Thanks>
             </Container>
         </AreaSection>
