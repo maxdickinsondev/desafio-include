@@ -50,7 +50,7 @@ const slideRight = keyframes`
 `;
 
 export const Text= styled.h3`
-    font-size: 2.2rem;
+    font-size: 2rem;
 
     &:nth-child(1) {
         animation: ${slideLeft} 1.2s;
