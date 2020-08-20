@@ -74,7 +74,6 @@ export const Social = styled.footer`
     text-align: center;
 
     padding: 20px 0px;
-    position: relative;
 
     ul {
         padding: 0;
@@ -99,18 +98,6 @@ export const Social = styled.footer`
                 }
             }
         }
-    }
-    
-    &:before {
-        content: '';
-        position: absolute;
-        width: 90%;
-        height: 0.1rem;
-        top: 0;
-        left: 0;
-        text-align: center;
-        margin-left: 60px;
-        background-color: #4a4a4a;
     }
 `;
 
