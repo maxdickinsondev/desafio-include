@@ -1,11 +1,12 @@
 import React from 'react';
 
 import { AreaSection, Container, Content, Box,
-    Text, Description, Title, Social
+    Text, Description, Title, Social, Thanks
 } from './styles';
 
 import { FaPhone, FaEnvelope, FaMapMarker,
-    FaFacebook, FaLinkedin, FaInstagram, FaGithub, FaYoutube, FaGitter
+    FaFacebook, FaLinkedin, FaInstagram, FaGithub,
+    FaYoutube, FaHeart
 } from 'react-icons/fa';
 
 export default function Footer() {
@@ -43,6 +44,11 @@ export default function Footer() {
                         <li><a href="https://www.youtube.com/channel/UCGxj9W2avI5m48Zs-fDNI8Q/" target="_blank"><FaYoutube color="#f5f5f5" size={25} /></a></li>
                     </ul>
                 </Social>
+
+                <Thanks>
+                    &copy; made with <FaHeart color="#E03041"/> by 
+                    <a href="https://github.com/maxdickinsondev" target="_blank"> MaxDickinson </a>
+                </Thanks>
             </Container>
         </AreaSection>
     );

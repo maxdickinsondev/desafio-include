@@ -73,6 +73,7 @@ export const Social = styled.footer`
     width: 100%;
     text-align: center;
 
+    padding: 20px 0px;
     position: relative;
 
     ul {
@@ -87,8 +88,18 @@ export const Social = styled.footer`
             a {
                 display: inline-block;
                 padding: 15px 15px;
+
+                svg {
+                    
+                    &:hover {
+                        fill: #F86D09;
+                        transform: scale(1.4); 
+                    }
+
+                }
             }
         }
+    }
     
     &:before {
         content: '';
@@ -103,3 +114,19 @@ export const Social = styled.footer`
     }
 `;
 
+export const Thanks = styled.div`
+    font: 400 1rem Poppins;
+    color: #f5f5f5;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: #f5f5f5;
+
+        transition: color .5s ease;
+
+        &:hover {
+            color: #F86D09;
+        }
+    }
+`;
