@@ -15,14 +15,14 @@ export default function Header() {
         <AreaSection>
             <Container>
                 <AreaName>
-                    <a href="">
+                    <a href="#home">
                         <FirstName>Max</FirstName>
                         <SecondName>Dickinson</SecondName>
                     </a>
                 </AreaName>
 
                 <NavBar>
-                    <a href="#" onClick={handleOpenMenu}>
+                    <a href="#home" onClick={handleOpenMenu}>
                         <Burger isOpen={isOpen}>
                             <div />
                             <div />
