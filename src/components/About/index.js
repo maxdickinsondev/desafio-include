@@ -8,7 +8,7 @@ import myphoto from '../../assets/images/me.jpg';
 
 export default function About() {
     return (
-      <AreaSection>
+      <AreaSection id="about">
         <Container>
             <Title>About</Title>
 

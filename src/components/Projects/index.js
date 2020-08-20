@@ -13,7 +13,7 @@ import project6 from '../../assets/images/projects/portfolio6.png';
 
 export default function Projects() {
     return (
-      <AreaSection>
+      <AreaSection id="projects">
         <Container>
             <Title>Projects</Title>
 

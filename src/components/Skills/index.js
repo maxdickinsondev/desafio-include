@@ -13,7 +13,7 @@ import mysql from '../../assets/images/skills/mysql.png';
 
 export default function Skills() {
     return (
-      <AreaSection>
+      <AreaSection id="skills">
         <Container>
             <Title>Skills</Title>
 

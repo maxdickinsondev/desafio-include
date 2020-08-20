@@ -56,11 +56,28 @@ export const Menu = styled.ul`
 
     li {
         margin-top: 10px;
+        position: relative;
        
         a {
             color: #f0f0f5;
             text-decoration: none;
             margin: 0px 15px;
+            font-size: 1.3rem;
+
+            &:before {
+                content: '';
+                position: absolute;
+                margin-top: 35px;
+                left: 10;
+                background-color: #f0f0f5;
+                width: 0;
+                height: 0.1rem;
+                transition: width .5s ease;
+            }
+
+            &:hover:before {
+                width: 70%;
+            }
         }
     }
 
