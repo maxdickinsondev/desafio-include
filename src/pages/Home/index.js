@@ -5,6 +5,7 @@ import Welcome from '../../components/Welcome';
 import About from '../../components/About';
 import Skills from '../../components/Skills';
 import Projects from '../../components/Projects';
+import Footer from '../../components/Footer';
 
 import { Container } from './styles';
 
@@ -16,6 +17,7 @@ export default function Home() {
             <About />
             <Skills />
             <Projects />
+            <Footer />
         </Container>
     );
 }
