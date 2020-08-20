@@ -10,6 +10,9 @@ import js from '../../assets/images/skills/js.png';
 import react from '../../assets/images/skills/react.png';
 import node from '../../assets/images/skills/nodejs.png';
 import mysql from '../../assets/images/skills/mysql.png';
+import github from '../../assets/images/skills/github.png';
+import redux from '../../assets/images/skills/redux.png';
+import mongodb from '../../assets/images/skills/mongodb.png';
 
 export default function Skills() {
     return (
@@ -74,6 +77,36 @@ export default function Skills() {
                         <Image 
                             src={mysql}
                             alt="HTML"
+                        />
+                    </Box>
+                </Card>
+
+                <Card>
+                    <Box>
+                        <Tech>Redux</Tech>
+                        <Image 
+                            src={redux}
+                            alt="redux"
+                        />
+                    </Box>
+                </Card>
+
+                <Card>
+                    <Box>
+                        <Tech>GitHub</Tech>
+                        <Image 
+                            src={github}
+                            alt="github"
+                        />
+                    </Box>
+                </Card>
+
+                <Card>
+                    <Box>
+                        <Tech>MongoDB</Tech>
+                        <Image 
+                            src={mongodb}
+                            alt="mongodb"
                         />
                     </Box>
                 </Card>
