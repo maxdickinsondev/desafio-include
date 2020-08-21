@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AreaSection = styled.section`
-    background: #595454;
+    background: #4a4a4a;
     float: left;
     width: 100vw;
     padding-top: 80px;

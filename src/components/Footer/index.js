@@ -11,7 +11,7 @@ import { FaPhone, FaEnvelope, FaMapMarker,
 
 export default function Footer() {
     return (
-        <AreaSection>
+        <AreaSection id="contact">
             <Container>
                 <Title>Contact</Title>
 

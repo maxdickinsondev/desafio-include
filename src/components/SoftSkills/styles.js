@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AreaSection = styled.section`
-    background: #4a4a4a;
+    background: #595454;
     float: left;
     width: 100vw;
     padding: 80px 0px;
@@ -10,8 +10,6 @@ export const AreaSection = styled.section`
 export const Container = styled.div`
     width: 90vw;
     margin: 0 auto;
-
-    
 `;
 
 export const Title = styled.h3`
@@ -45,16 +43,15 @@ export const Content = styled.div`
 `;
 
 export const Image = styled.img`
-    width: 7rem;
-    height: 7rem;
+    width: 4rem;
+    height: 4rem;
+
+    margin-bottom: 20px;
 `;
 
 export const Card = styled.div`
     float: left;
     width: 33.33%;
-    padding: 15px;
-
-    transition: transform 0.2s ease-in-out;
 
     @media (max-width: 767px) {
         width: 50%;
@@ -63,44 +60,25 @@ export const Card = styled.div`
     @media (max-width: 500px) {
         width: 100%;
     }
-
-    &:hover {
-        transform: translateY(-10px);
-    }
 `;
 
 export const Box = styled.div`
-   background: #595454;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 
-   padding: 20px;
-   border-radius: 0.3rem;
-
-   position: relative;
-
-   &:before {
-       content: '';
-       position: absolute;
-       background-color: #f0f0f5;
-       width: 0;
-       bottom: 0;
-       left: 0;
-       height: 0.2rem;
-       z-index: 1;
-       transition: width .5s ease;
-   }
-
-   &:hover:before {
-        width: 100%;
-   }
+    padding: 20px;
 `;
 
-export const Tech = styled.h3`
-    color: #f0f0f5;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+export const Text = styled.h3`
+    color: #f5f5f5;
+    font: 700 1.5rem Raleway;
 
-    font-size: 1.2rem;
+    margin-bottom: 20px;
+`;
+
+export const Description = styled.span`
+    color: #f5f5f5;
+    font: 400 1rem Poppins;
 `;

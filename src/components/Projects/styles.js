@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AreaSection = styled.section`
-    background: #4a4a4a;
+    background: #595454;
     float: left;
     width: 100vw;
     padding: 80px 0px;
@@ -70,7 +70,7 @@ export const Card = styled.div`
 `;
 
 export const Box = styled.div`
-   background: #595454;
+   background: #4a4a4a;
    display: flex;
    flex-direction: column;
 
