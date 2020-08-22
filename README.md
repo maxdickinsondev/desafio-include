@@ -48,5 +48,7 @@ Dentro de alguns segundos o navegador será aberto exibindo a aplicação fronte
 - React Icons (pacotes de ícones como font awesome, ant design etc)
 - Styled-Components (componentes estilizáveis no React)
 
+Link da aplicação: https://max-dickinson-include.netlify.app
+
 # :rocket: O aprendizado é contínuo e sempre vai existir um próximo nível :rocket:
 
