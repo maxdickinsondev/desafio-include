@@ -109,10 +109,21 @@ export const Name = styled.h3`
     font: 700 2.4rem Raleway;
 
     animation: ${slideLeft} 1s;
+
+    @media (max-width: 500px) {
+        font-size: 2rem;
+    }
 `;
 
 export const Ocupation = styled.h3`
     color: #f0f0f5;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font: 400 2rem Raleway;
+
+    @media (max-width: 500px) {
+        font-size: 1.4rem;
+    }
 `;
 
 export const Bio = styled.p`

@@ -5,7 +5,7 @@ import { AreaSection, Container, AreaName, FirstName, SecondName,
 } from './styles';
 
 export default function Header() {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     function handleOpenMenu() {
         setIsOpen(!isOpen);

@@ -22,8 +22,10 @@ export default function About() {
                     <Name>Max Dickinson</Name>
                     <Ocupation>React Developer</Ocupation>
                     <Bio>
-                        Apaixonado por programação, procuro estudar mais e mais a cada dia para resolver 
-                        problemas e programar soluções nas tecnologias mais atuais do mercado.
+                        Sou um apaixonado por tecnologia que está sempre em busca de novos conhecimentos, adoro resolver desafios e problemas com a
+                        programação. Minha jornada acadêmica iniciou no ano de 2017 quando entrei no curso de Engenharia de Software pela Universidade 
+                        Federal do Ceará. Me identifiquei com o curso logo de cara e hoje não me vejo sem. Recentemente me encontrei nesse
+                        mundo web e mobile e atualmente venho me especializando na stack React + Node.
                     </Bio>
                 </Description>
             </Content>
