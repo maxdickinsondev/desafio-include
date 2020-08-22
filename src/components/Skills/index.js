@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 import { AreaSection, Container, Title,
     Image, Content, Card, Box, Tech
@@ -22,93 +23,138 @@ export default function Skills() {
 
             <Content>
                 <Card>
-                    <Box>
-                        <Tech>HTML</Tech>
-                        <Image 
-                            src={html}
-                            alt="HTML"
-                        />
-                    </Box>
+                    <Fade 
+                        top 
+                        duration={1000}
+                    >
+                        <Box>
+                            <Tech>HTML</Tech>
+                            <Image 
+                                src={html}
+                                alt="HTML"
+                            />
+                        </Box>
+                    </Fade>
                 </Card>
 
                 <Card>
-                    <Box>
-                        <Tech>CSS</Tech>
-                        <Image 
-                            src={css}
-                            alt="HTML"
-                        />
-                    </Box>
+                    <Fade 
+                        top 
+                        duration={1300}
+                    >
+                        <Box>
+                            <Tech>CSS</Tech>
+                            <Image 
+                                src={css}
+                                alt="HTML"
+                            />
+                        </Box>
+                    </Fade>
                 </Card>
 
                 <Card>
-                    <Box>
-                        <Tech>Javascript</Tech>
-                        <Image 
-                            src={js}
-                            alt="HTML"
-                        />
-                    </Box>
+                    <Fade 
+                        top 
+                        duration={1500}
+                    >
+                        <Box>
+                            <Tech>Javascript</Tech>
+                            <Image 
+                                src={js}
+                                alt="HTML"
+                            />
+                        </Box>
+                    </Fade>
                 </Card>
 
                 <Card>
-                    <Box>
-                        <Tech>React</Tech>
-                        <Image 
-                            src={react}
-                            alt="HTML"
-                        />
-                    </Box>
+                    <Fade 
+                        top 
+                        duration={1000}
+                    >
+                        <Box>
+                            <Tech>React</Tech>
+                            <Image 
+                                src={react}
+                                alt="HTML"
+                            />
+                        </Box>
+                    </Fade>
                 </Card>
 
                 <Card>
-                    <Box>
-                        <Tech>Node</Tech>
-                        <Image 
-                            src={node}
-                            alt="HTML"
-                        />
-                    </Box>
+                    <Fade 
+                        top 
+                        duration={1300}
+                    >
+                        <Box>
+                            <Tech>Node</Tech>
+                            <Image 
+                                src={node}
+                                alt="HTML"
+                            />
+                        </Box>
+                    </Fade>
                 </Card>
 
                 <Card>
-                    <Box>
-                        <Tech>MySql</Tech>
-                        <Image 
-                            src={mysql}
-                            alt="HTML"
-                        />
-                    </Box>
+                    <Fade 
+                        top 
+                        duration={1500}
+                    >
+                        <Box>
+                            <Tech>MySql</Tech>
+                            <Image 
+                                src={mysql}
+                                alt="HTML"
+                            />
+                        </Box>
+                    </Fade>
                 </Card>
 
                 <Card>
-                    <Box>
-                        <Tech>Redux</Tech>
-                        <Image 
-                            src={redux}
-                            alt="redux"
-                        />
-                    </Box>
+                    <Fade 
+                        top 
+                        duration={1000}
+                    >
+                        <Box>
+                            <Tech>Redux</Tech>
+                            <Image 
+                                src={redux}
+                                alt="redux"
+                            />
+                        </Box>
+                    </Fade>
                 </Card>
 
                 <Card>
-                    <Box>
-                        <Tech>GitHub</Tech>
-                        <Image 
-                            src={github}
-                            alt="github"
-                        />
-                    </Box>
+                    <Fade 
+                        top 
+                        duration={1300}
+                    >
+                        <Box>
+                            <Tech>GitHub</Tech>
+                            <Image 
+                                src={github}
+                                alt="github"
+                            />
+                        </Box>
+                    </Fade>
                 </Card>
 
                 <Card>
-                    <Box>
-                        <Tech>MongoDB</Tech>
-                        <Image 
-                            src={mongodb}
-                            alt="mongodb"
-                        />
-                    </Box>
+                    <Fade 
+                        top 
+                        duration={1500}
+                    >
+                        <Box>
+                            <Tech>MongoDB</Tech>
+                            <Image 
+                                src={mongodb}
+                                alt="mongodb"
+                            />
+                        </Box>
+                    </Fade>
                 </Card>
             </Content>
         </Container>

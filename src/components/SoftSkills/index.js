@@ -1,4 +1,5 @@
 import React from 'react';
+import Rotate from 'react-reveal/Rotate';
 
 import { AreaSection, Container, Title, Content, Image,
     Card, Box, Text, Description
@@ -16,42 +17,60 @@ export default function SoftSkills() {
                 
                 <Content>
                     <Card>
-                        <Box>
-                            <Image 
-                                src={autodidata}
-                                alt="Autodidata"
-                            />
-                            <Text>Autodidata</Text>
-                            <Description>
-                                Estou sempre aprendendo algo novo, gosto de entender  a mecânica das coisas, como as coisas funcionam. 
-                            </Description>
-                        </Box>
+                        <Rotate
+                            top left
+                            delay={200}
+                            duration={1500}
+                        >
+                            <Box>
+                                <Image 
+                                    src={autodidata}
+                                    alt="Autodidata"
+                                />
+                                <Text>Autodidata</Text>
+                                <Description>
+                                    Estou sempre aprendendo algo novo, gosto de entender  a mecânica das coisas, como as coisas funcionam. 
+                                </Description>
+                            </Box>
+                        </Rotate>
                     </Card>
 
                     <Card>
-                        <Box>
-                            <Image 
-                                src={curioso}
-                                alt="Curioso"
-                            />
-                            <Text>Curioso</Text>
-                            <Description>
-                                Nem sempre teremos um mentor para nos auxiliar, buscar o conhecimento sozinho é algo necessário.
-                            </Description>
-                        </Box>
+                        <Rotate
+                            top left
+                            delay={200}
+                            duration={1500}
+                        >
+                            <Box>
+                                <Image 
+                                    src={curioso}
+                                    alt="Curioso"
+                                />
+                                <Text>Curioso</Text>
+                                <Description>
+                                    Nem sempre teremos um mentor para nos auxiliar, buscar o conhecimento sozinho é algo necessário.
+                                </Description>
+                            </Box>
+                        </Rotate>
                     </Card>
 
                     <Card>
-                        <Box>
-                            <Image 
-                                src={team}
-                                alt="team"
-                            />
-                            <Text>Trabalho em equipe</Text>
-                            <Description>
-                                O trabalho em equipe é essencial na carreira de um dev, estamos sempre aprendendo com as pessoas. 
-                            </Description>
-                        </Box>
+                        <Rotate
+                            top left
+                            delay={200}
+                            duration={1300}
+                        >
+                            <Box>
+                                <Image 
+                                    src={team}
+                                    alt="team"
+                                />
+                                <Text>Trabalho em equipe</Text>
+                                <Description>
+                                    O trabalho em equipe é essencial na carreira de um dev, estamos sempre aprendendo com as pessoas. 
+                                </Description>
+                            </Box>
+                        </Rotate>
                     </Card>
                 </Content>
             </Container>

@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 export const AreaSection = styled.section`
     background: #4a4a4a;
@@ -86,29 +86,9 @@ export const Description = styled.div`
     }
 `;
 
-const slideRight = keyframes`
-    0% {
-        transform: translateX(120px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-`;
-
-const slideLeft = keyframes`
-    0% {
-        transform: translateX(-120px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-`;
-
 export const Name = styled.h3`
     color: #f0f0f5;
     font: 700 2.4rem Raleway;
-
-    animation: ${slideLeft} 1s;
 
     @media (max-width: 500px) {
         font-size: 2rem;
@@ -129,6 +109,4 @@ export const Ocupation = styled.h3`
 export const Bio = styled.p`
     color: #f5f5f5;
     font: 400 1rem Poppins;
-
-    animation: ${slideRight} 1s;
 `;

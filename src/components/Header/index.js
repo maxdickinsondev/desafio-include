@@ -10,12 +10,16 @@ export default function Header() {
     function handleOpenMenu() {
         setIsOpen(!isOpen);
     }
+
+    function handleReloadPage() {
+        window.location.reload();
+    }
     
     return (
         <AreaSection>
             <Container>
                 <AreaName>
-                    <a href="#home">
+                    <a href="#home" onClick={handleReloadPage}>
                         <FirstName>Max</FirstName>
                         <SecondName>Dickinson</SecondName>
                     </a>
