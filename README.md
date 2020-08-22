@@ -13,7 +13,7 @@ git clone https://github.com/maxdickinsondev/desafio-include
 ```
 2. Após realizar o clone, navegue para a pasta **desafio-include** que acabou de ser criada.
 
-3. Agora, antes de execurtarmos o projeto precisamos instalar suas dependências através de um **gerenciador de pacotes**, o gerenciador que eu utilizei foi o **Yarn**, mas você pode utilizar o **npm** se quiser que já vem instalado no Node.
+3. Agora, antes de execurtarmos o projeto precisamos instalar suas dependências através de um **gerenciador de pacotes**, o gerenciador que eu utilizei foi o **Yarn**, mas você pode utilizar se quiser o **npm** que já vem instalado no Node.
 
 4. Com o gerenciador de pacotes instalado, basta digitar dentro da pasta do projeto um dos comandos abaixo.
 
