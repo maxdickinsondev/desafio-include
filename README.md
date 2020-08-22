@@ -9,11 +9,11 @@
 1. Dentro do terminal na sua máquina, navegue até a pasta onde deseja fazer o clone da aplicação, em seguida copie o código abaixo e tecle enter.
 
 ```
-git clone https://github.com/maxdickinsondev/git-project
+git clone https://github.com/maxdickinsondev/desafio-include
 ```
-2. Após realizar o clone, navegue para a pasta **git-project** que acabou de ser criada.
+2. Após realizar o clone, navegue para a pasta **desafio-include** que acabou de ser criada.
 
-3. Agora, antes de execurtarmos o projeto precisamos instalar suas dependências através de um **gerenciador de pacotes**, o gerenciador que eu utilizei foi o **Yarn**, mas você pode utilizar se quiser o **npm** que já vem instalado no Node.
+3. Agora, antes de execurtarmos o projeto precisamos instalar suas dependências através de um **gerenciador de pacotes**, o gerenciador que eu utilizei foi o **Yarn**, mas você pode utilizar o **npm** se quiser que já vem instalado no Node.
 
 4. Com o gerenciador de pacotes instalado, basta digitar dentro da pasta do projeto um dos comandos abaixo.
 
@@ -44,11 +44,8 @@ Dentro de alguns segundos o navegador será aberto exibindo a aplicação fronte
 ## Frameworks e ferramentas utilizadas
 
 - ReactJS
-- React Leaflet (pra utilização do mapa)
-- React Loading (loading de carregamento nas requisições do usuário)
-- React Toastify (notificações personalizadas para o usuário)
-- React Library Testing (para realização de testes dos componentes React)
-- Axios (requisições http na api)
+- React Reveal (para criar animações de fade, slide etc)
+- React Icons (pacotes de ícones como font awesome, ant design etc)
 - Styled-Components (componentes estilizáveis no React)
 
 # :rocket: O aprendizado é contínuo e sempre vai existir um próximo nível :rocket:
